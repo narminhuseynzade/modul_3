@@ -16,7 +16,7 @@ body{
 header{
     background-color: #F5F5F6;
     display: flex;
-    padding: 20px 150px;
+    padding: 20px 180px;
     align-items: center;
   
 }
@@ -24,8 +24,8 @@ header a{
     text-decoration: none;
     color: #959BA4;
     font-weight: 500;
-    font-size: 12px; 
-    margin-right: 20px;
+    font-size: 13px; 
+    margin-right: 15px;
 }
 .select{
     color: black;
@@ -41,7 +41,7 @@ h1{
     font-size: 36px;
 }
 .wrapper{
-    margin: 56px 352px;
+    margin: 56px 380px;
 }
 .btn-box,.value-box{
     display: flex;
@@ -53,17 +53,15 @@ h1{
     font-size: 12px;
     margin-bottom: 10px;
 }
+
 article button{
     border: 1px solid #C6C6C6;
     color: #C6C6C6;
     background-color: #fff;
-    padding: 10px 25px;
+    padding: 10px 20px;
     margin-right: -5px;
 }
-article button:hover{
-    background-color: #833AE0;
-    color: #fff;
-}
+
 article button:nth-child(2){
 border-top-left-radius: 5px;
 border-bottom-left-radius: 5px;
@@ -74,7 +72,7 @@ article button:last-child{
     }
 aside{
     border: 1px solid #C6C6C6;
-    width: 317px;
+    width: 278px;
     padding: 10px;
     border-radius: 5px;
     margin-right: -5px;
@@ -83,7 +81,7 @@ aside p{
     margin: 20px 15px;
 }
 aside input{
-    width: 260px;
+    width: 253px;
     height: 50px;
     border: none;
     padding: 15px;

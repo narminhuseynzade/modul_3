@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency Converter</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     <header>
         <div class="logo">
@@ -33,30 +31,30 @@
             <section class="btn-box">
                 <article>
                     <p>У меня есть </p>
-                    <button>RUB</button>
-                    <button>USD</button>
-                    <button>EUR</button>
-                    <button>GBP</button>
+                    <button class="left-side-choice" value="RUB">RUB</button>
+                    <button class="left-side-choice" value="USD">USD</button>
+                    <button class="left-side-choice" value="EUR">EUR</button>
+                    <button class="left-side-choice" value="GBP">GBP</button>
                 </article>
                 <article>
                     <p>Хочу приобрести</p>
-                    <button>RUB</button>
-                    <button>USD</button>
-                    <button>EUR</button>
-                    <button>GBP</button>
+                    <button class="right-side-choice" value="RUB">RUB</button>
+                    <button class="right-side-choice" value="USD">USD</button>
+                    <button class="right-side-choice" value="EUR">EUR</button>
+                    <button class="right-side-choice" value="GBP">GBP</button>
                 </article>
             </section>
             <section class="value-box">
                 <aside>
-                    <input type="text">
-                    <p>1 RUB = 0.0135 USD</p>
+                    <input type="text" class="left-side-input" value="0" onfocus="this.value=''">
+                    <p class="left-side-info"></p>
                 </aside>
                 <aside>
-                    <input type="text">
-                    <p>1 USD = 73.8896 RUB</p>
+                    <input type="text" class="right-side-input" value="0" onfocus="this.value=''">
+                    <p class="right-side-info"></p>
                 </aside>
             </section>
-            
+
         </div>
     </main>
     <script src="./script.js"></script>
